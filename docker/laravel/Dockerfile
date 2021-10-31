@@ -3,7 +3,7 @@ FROM public.ecr.aws/bitnami/php-fpm:8.0-prod
 # timezone environment
 ENV TZ=Asia/Tokyo
 
-WORKDIR /app
+WORKDIR /application
 COPY src .
 COPY src/.env.example .env
 RUN apt-get update \
