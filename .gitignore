@@ -1,0 +1,3 @@
+*.env
+/docker/nginx-proxy/certs/local-api.dpk3-developers.com.crt
+/docker/nginx-proxy/certs/local-api.dpk3-developers.com.key
