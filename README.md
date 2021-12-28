@@ -27,7 +27,6 @@ copilot env init \
 
 ```
 copilot svc init \
-    --profile ${AWS_PROFILE} \
     --app dpk3-developers-laravel-webapi \
     --dockerfile docker/laravel/Dockerfile \
     --name laravel-webapi \
