@@ -13,7 +13,6 @@ export AWS_PROFILE="admin-role"
 
 ```
 copilot app init dpk3-developers-laravel-webapi \
-    --profile ${AWS_PROFILE} \
     --resource-tags created_date=`date '+%Y%m%d'`,created_by=${AWS_PROFILE}
 ```
 
