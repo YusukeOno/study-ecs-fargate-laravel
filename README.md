@@ -20,6 +20,7 @@ copilot app init dpk3-developers-laravel-webapi \
 copilot env init \
     --profile ${AWS_PROFILE} \
     --app dpk3-developers-laravel-webapi \
+    --default-config \
     --name laravel-webapi \
     --region ap-northeast-1
 ```
